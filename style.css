@@ -1,0 +1,627 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body {
+   max-width: 1440px;
+   margin: auto;
+}
+header {
+   background-color: rgba(242, 120, 92, 0.7);
+   height: 90px;
+   box-shadow: 0px 4px 4px rgb(13, 96, 111, .5);
+}
+.logo-div{
+   display: flex;
+   gap: 6px;
+}
+.logo{
+   margin-left: 121px;
+   margin-top: 26px;
+   height: 30px;
+}
+.text-logo{
+   font-family: 'Magra',sans-serif;
+   font-size: 30px;
+   color: #FFFFFF;
+   margin-top: 26px;
+}
+.background1 {
+   background: url(images/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png);
+   height: 765px;
+}
+.background2 {
+   background: url(images/translucent-image\ \(2\).png);
+   width: 1442px;
+   height: 1270px;
+   background-repeat: no-repeat;
+   margin-top: 20px;
+}
+nav {
+   font-family: 'Red Hat Text',sans-serif;
+   color: #FFFFFF;
+   text-align: center;
+   margin-top: -26px;
+   margin-left: 490px;
+   display: flex;
+   align-items: center;
+   padding: 0px;
+   gap: 42px;
+}
+.font-a {
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 16px;
+}
+.login {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 103px;
+   height: 41px;
+   background-color: #0D606F;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+   border-radius: 10px;
+   font-family: 'Red Hat Text',sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   color: #FFFFFF;
+   margin-top: -30px;
+   margin-left: 1215px;
+   text-decoration: none;
+}
+.text-planing {
+   height: 420px;
+   width: 892px;
+   margin-left: 120px;
+}
+.exploaring {
+   margin-top: 27px;
+   font-family: 'Aleo',sans-serif;
+   font-size: 80px;
+   color: #FFFFFF;
+}
+.comment {
+   font-family: 'Aleo',sans-serif;
+   font-style: italic;
+   font-weight: 600;
+   font-size: 20px;
+   color: #FFFFFF;
+   margin-top: 40px;
+}
+.form {
+   outline: 0;
+   outline-offset: 0;
+   border: 0px;
+   width: 560px;
+   height: 22px;
+   margin-left: 41px;
+   margin-top: 32px;
+}
+.planning {
+   background-color: rgb(255,255,255,.7);
+   border-radius: 16px;
+   width: 830px;
+   height: 95px;
+   margin-left: 120px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 41px;
+   padding-right: 18px;
+   margin-top: -120px;
+}
+.placeholder {
+   background-color: rgb(0,0,0,0);
+   color: #F2785C;
+   font-family: 'Aleo',sans-serif;
+   font-style: italic;
+   font-weight: 600;
+   font-size: 20px;
+   border: 0px;
+   outline: 0;
+   outline-offset: 0;
+   width: 600px;
+}
+.rectangle2 {
+   background-color: #0D606F;
+   width: 228px;
+   height: 59px;
+   border-radius: 10px;
+   font-family: 'Red Hat Text',sans-serif;
+   font-weight: 600;
+   font-size: 24px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 32px;
+   border: 0;
+}
+.text-steps {
+   font-family: 'Red Hat Text',sans-serif;
+   color: #F2785C;
+   font-size: 40px;
+   text-align: center;
+   margin-top: 80px;
+}
+.steps-div {
+   margin-top: 40px;
+   margin-left: 131px;
+   display: flex;
+   gap: 220px;
+}
+.steps-text{
+   margin-top: 30px;
+}
+.img-step1{
+   background-color: #F2785C;
+   border-radius: 16px;
+   padding: 28px 25px 27px 25px;
+}
+.img-step2{
+   background-color: #F2785C;
+   border-radius: 16px;
+   padding: 24px;
+}
+.img-step3{
+   background-color: #F2785C;
+   border-radius: 16px;
+   padding: 28px 20px 27px 20px;
+}
+.first-step{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   font-family: 'Red Hat Text', sans-serif;
+   color: #0D606F;
+   font-size: 20px;
+}
+.second-step{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   font-family: 'Red Hat Text', sans-serif;
+   color: #0D606F;
+   font-size: 20px;
+}
+.third-step{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   font-family: 'Red Hat Text', sans-serif;
+   color: #0D606F;
+   font-size: 20px;
+   margin-left: -70px;
+}
+.destinations{
+   font-family: 'Red Hat Text',sans-serif;
+   font-size: 40px;
+   color:#F2785C;
+   text-align: center;
+   margin-top: 96px;
+}
+.mobile-destinations{
+   display: none;
+   font-family: 'Red Hat Text',sans-serif;
+   font-size: 20px;
+   color:#FFFFFF;
+   border-radius: 16px;
+   background-image: url(images/Rectangle\ 26.png);
+   width: 360px;
+   height: 210px;
+   margin-left: 5px;
+}
+.mobile-text-destinations{
+   padding: 8px 285px 176px 15px;
+}
+.block-destination{
+   background-image: url(images/Rectangle\ 24.png);
+   width: 800px;
+   height: 800px;
+   border-radius: 16px;
+}
+.p-destination{
+   font-family: 'Red Hat Text',sans-serif;
+   font-size: 32px;
+   color: #FFFFFF;
+   margin-left: 15px;
+   margin-top: 720px;
+}
+.main-block-destination{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   margin-top: 40px;
+}
+.elipses{
+   display: flex;
+   gap: 10px;
+   align-content: center;
+   justify-content: center;
+   width: 80px;
+   height: 20px;
+   margin-top: 30px;
+}
+.elipse1{
+   width: 20px;
+   height: 20px;
+   background-color: rgba(242, 120, 92, 0.5);
+   border-radius: 16px;
+}
+.elipse2{
+   width: 20px;
+   height: 20px;
+   border-radius: 16px;
+   background-color: #F2785C;
+}
+.elipse3{
+   width: 20px;
+   height: 20px;
+   background-color: rgba(242, 120, 92, 0.5);
+   border-radius: 16px;
+}
+.find{
+   background-color: #0D606F;
+   height: 59px;
+   width: 228px;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 12.5px;
+   margin-top: 40px;
+}
+.a-find{
+   font-family: 'Red Hat Text',sans-serif;
+   font-size: 24px;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+.img-find{
+   width: 35px;
+   height: 22.5px;
+}
+.stories{
+   font-family: "Red Hat Text",sans-serif;
+   font-size: 40px;
+   color: #F2785C;
+   margin-top: 80px;
+}
+.thailand{
+   display: flex;
+   gap: 40px;
+   margin-top: 40px;
+}
+.thailand1{
+   display: flex;
+   gap: 40px;
+   margin-top: 30px;
+}
+.all-stories{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 40px;
+   align-items: center;
+}
+.img-thailand{
+   width: 400px;
+   height: 250px;
+   border-radius: 16px;
+}
+.mobile-img-thailand{
+   display: none;
+}
+.text-thailand{
+   font-family: 'Aleo',sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 35px;
+   color:#0D606F ;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.span-thailand{
+   font-family: 'Aleo';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   width: 760px;
+   height: 148px;
+   color: #0D606F;
+   margin-top: 20px;
+}
+.block-thailand{
+   display: flex;
+   flex-direction: column;
+}
+.a-thailand{
+   font-family: 'Aleo';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   color: #0D606F;
+   margin-top: 10px;
+}
+.see{
+   background-color: #0D606F;
+   height: 59px;
+   width: 228px;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 12.5px;
+   margin-top: 30px;
+}
+.a-see{
+   font-family: 'Red Hat Text',sans-serif;
+   font-size: 24px;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+.bottom{
+   background-image: url(images/Rectangle\ 33\ \(3\).png);
+   width: 1442px;
+   height: 57px;
+   background-repeat: no-repeat;
+}
+.bottom-items{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+}
+.text-bottom{
+   font-family: 'Red Hat Text',sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   color: #FFFFFF;
+   margin-top: 20px;
+}
+.img-step11{
+   display: none;
+}
+.img-step12{
+   display: none;
+}
+.img-step13{
+   display: none;
+}
+.footer-vectores{
+   display: none;
+}
+@media screen and (max-width: 390px) {
+   .background1{
+      background-image: url(images/garrett-parker-DlkF4-dbCOU-unsplash\ 2.png);
+      height: 251px;
+   }
+   header{
+      height: 75px;
+      background: linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25.1%);
+      box-shadow: none;
+   }
+   .logo{
+      margin-left: 16px;
+      margin-top: 45px;
+   }
+   .text-logo{
+      display: none;
+   }
+   .exploaring{
+      display: none;
+   }
+   .comment{
+      display: none;
+   }
+   .form {
+   outline: 0;
+   outline-offset: 0;
+   border: 0px;
+   width: 116px;
+   height: 11px;
+   margin-left: 16px;
+   margin-top: 16px;
+}
+   .planning {
+   border-radius: 10px;
+   width: 310px;
+   height: 45px;
+   margin-left: 15px;
+   padding-left: 16px;
+   padding-right: 15px;
+   margin-top: -350px;
+}
+   .placeholder {
+   font-weight: 400;
+   font-size: 14px;
+}
+.rectangle2 {
+   height: 30px;
+   border-radius: 7px;
+   font-weight: 500;
+   font-size: 11px;
+   padding: 9px 9px;}
+.text-steps {
+   font-size: 14px;
+   margin-top: 20px;
+}
+.login{
+   display: none;
+}
+.img-step1 {
+   display: none;
+}
+.img-step2 {
+   display: none;
+}
+.img-step3{
+   display: none;
+}
+.first-step {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   font-family: 'Red Hat Text', sans-serif;
+   color: #0D606F;
+   font-size: 10px;
+}
+.second-step{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   font-family: 'Red Hat Text', sans-serif;
+   color: #0D606F;
+   font-size: 10px;
+}
+.third-step{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   font-family: 'Red Hat Text', sans-serif;
+   color: #0D606F;
+   font-size: 10px;
+}
+.steps-div{
+   gap: 55px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+.img-step11{
+   display: block;
+   background-color: #F2785C;
+   border-radius: 12px;
+   padding: 19px 17px 19.5px 18px;
+}
+.img-step12{
+   display: block;
+   background-color: #F2785C;
+   border-radius: 12px;
+   padding: 18px 17px 17px 18px;
+}
+.img-step13{
+   display: block;
+   background-color: #F2785C;
+   border-radius: 12px;
+   padding: 20px 15px 20px 15px;
+}
+.destinations {
+   font-size: 14px;
+   text-align: center;
+}
+.block-destination{
+   display: none;
+}
+.mobile-destinations{
+   display: flex;
+   margin-top: 20px;
+}
+.elipses{
+   gap: 6px;
+   margin-top: -60px;
+}
+.elipse1{
+   width: 8px;
+   height: 8px;
+}
+.elipse2{
+   width: 8px;
+   height: 8px;
+}
+.elipse3{
+   width: 8px;
+   height: 8px;
+}
+.find{
+   width: 92px;
+   height: 30px;
+   gap: 6.62px;
+   margin-top: 10px;
+}
+.a-find{
+   font-size: 11px;
+}
+.img-find{
+   width: 8.75px;
+   height: 5.63px;
+}
+.stories{
+   margin-top: 20px;
+   font-size: 14px;
+}
+.background2{
+   background: url(images/translucent-image\ \(3\).png);
+   width: 390px;
+   height: 629px;
+   background-repeat: no-repeat;
+   margin-top: 10px;
+}
+.all-stories{
+   margin-top: 0px;
+}
+.img-thailand{
+   display: none;
+}
+.mobile-img-thailand{
+   display: block;
+   width: 155px;
+   height: 130px;
+   border-radius: 16px;
+   filter: drop-shadow(0px 4px 4px #0D606F);
+}
+.text-thailand{
+   font-size: 11px;
+   margin-top: 5px;
+}
+.span-thailand{
+   font-size: 9px;
+   width: 180px;
+   height: 90px;
+   margin-top: 5px;
+}
+.a-thailand{
+   font-size: 9px;
+   margin-top: 5px;
+}
+.thailand{
+   gap: 10px;
+   margin-top: 10px;
+}
+.thailand1{
+   gap: 10px;
+   margin-top: 15px;
+}
+.see{
+   width: 92px;
+   height: 30px;
+   gap: 6.62px;
+   margin-top: 10px;
+}
+.img-find{
+   width: 8.75px;
+   height: 5.63px;
+}
+.a-see{
+   font-size: 11px;
+}
+.footer-vectores{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 24px;
+   margin-top: 16px;
+}
+.bottom{
+   background: url(images/bottom.png);
+   width: 100%;
+   height: 62px;
+}
+.text-bottom{
+   display: none;
+}
+}
+
